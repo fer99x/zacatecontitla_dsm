@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Zacatecontitla - 3D</title>
+<title>Zacatecontitla - DSM</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 <base target="_blank">
 <link rel="stylesheet" type="text/css" href="./Qgis2threejs.css">
@@ -86,7 +86,7 @@
 <div id="progress"><div id="progressbar"></div></div>
 
 <!-- header and footer -->
-<div id="header"></div>
+<div id="header">Zacatecontitla, Tepoztlán, Morelos</div>
 <div id="footer"></div>
 
 <!-- animation -->
@@ -98,8 +98,10 @@
 </div>
 
 <script>
-Q3D.Config.viewpoint = {lookAt:{x:491683.4095412566,y:2095771.7650872923,z:1336.041194028488},pos:{x:491522.6673269869,y:2095267.1599108593,z:1787.9389111145576}};
+Q3D.Config.viewpoint = {lookAt:{x:491738.0984759906,y:2095899.0689474249,z:1409.579592647348},pos:{x:491408.36046388047,y:2095314.1528154623,z:1648.9796635354319}};
 Q3D.Config.localMode = true;
+Q3D.Config.northArrow.enabled = true;
+Q3D.Config.northArrow.color = 0x01ff05;
 
 var container = document.getElementById("view"),
     app = Q3D.application,
